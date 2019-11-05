@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/borda_login"
+    android:backgroundTint="@android:color/white"
+    tools:context=".view.CadastrarActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/conte"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:hint="@string/hint_nome"
+        android:background="@drawable/borda_login"
+        android:id="@+id/edit_text_nome"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sobrenome"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:hint="@string/hint_sobrenome"
+        android:background="@drawable/borda_login"
+        android:id="@+id/edit_text_sobrenome"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:hint="@string/hint_email"
+        android:background="@drawable/borda_login"
+        android:id="@+id/edit_text_email"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/senha"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:inputType="textPassword"
+        android:hint="@string/hint_senha"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"
+        android:id="@+id/edit_text_senha"
+        android:background="@drawable/borda_login"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirma_senha"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:inputType="textPassword"
+        android:hint="@string/hint_confirma_senha"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"
+        android:id="@+id/edit_text_confirma_senha"
+        android:background="@drawable/borda_login"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_cadastrar"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:background="#3d5d7c"
+        android:onClick="cadastrar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_cancelar"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:background="#3d5d7c"
+        android:onClick="cancelar"/>
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/borda_login"
+    android:backgroundTint="@android:color/white"
+    tools:context=".view.PasswdRecoverActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/conte"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recuperar"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="2dp"
+        android:hint="@string/hint_email"
+        android:background="@drawable/borda_login"
+        android:id="@+id/edit_text_recover_email"
+        android:textSize="20dp"
+        android:textColor="#3d5d7c"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_recuperar"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:background="#3d5d7c"
+        android:onClick="recuperar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_voltar"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:background="#3d5d7c"
+        android:onClick="voltar"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/gatos"/>
+
+</LinearLayout>
